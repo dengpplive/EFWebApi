@@ -1,0 +1,4 @@
+﻿三种记录日志的方法：
+1.业务中记录日志使用对象Logger
+2.代码内部查看问题使用 LogBuilder.NLogger对象记录日志
+3.自定义日志使用LogBuilder.InitLog4Net初始化后LogBuilder.Log4Net对象记录日志

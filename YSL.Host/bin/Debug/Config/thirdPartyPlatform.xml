@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<thirdPartyPlatform>
+  <!--微信登录参数设置-->
+  <wxlogin 
+    appid="wx9bda734edfa016e4" 
+    appsecret="a4d28a8852dbba6d79b29e079c9ff7dd" 
+    callbackurl="http://jx.xueche1.com/WeiXin/Login"
+></wxlogin>
+</thirdPartyPlatform>

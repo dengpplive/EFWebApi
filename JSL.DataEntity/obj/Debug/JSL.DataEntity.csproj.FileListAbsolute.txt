@@ -1,0 +1,17 @@
+E:\2016-03-09\1.工程\13.代码管理\Trunk\EFWebApi\JiaDeBao.JSL\JSL.DataEntity\bin\Debug\JSL.DataEntity.dll
+E:\2016-03-09\1.工程\13.代码管理\Trunk\EFWebApi\JiaDeBao.JSL\JSL.DataEntity\bin\Debug\JSL.DataEntity.pdb
+E:\2016-03-09\1.工程\13.代码管理\Trunk\EFWebApi\JiaDeBao.JSL\JSL.DataEntity\obj\Debug\JSL.DataEntity.dll
+E:\2016-03-09\1.工程\13.代码管理\Trunk\EFWebApi\JiaDeBao.JSL\JSL.DataEntity\obj\Debug\JSL.DataEntity.pdb
+D:\工程\惠信\EFWebApi\JiaDeBao.JSL\JSL.DataEntity\bin\Debug\JSL.DataEntity.dll
+D:\工程\惠信\EFWebApi\JiaDeBao.JSL\JSL.DataEntity\bin\Debug\JSL.DataEntity.pdb
+D:\工程\惠信\EFWebApi\JiaDeBao.JSL\JSL.DataEntity\obj\Debug\JSL.DataEntity.dll
+D:\工程\惠信\EFWebApi\JiaDeBao.JSL\JSL.DataEntity\obj\Debug\JSL.DataEntity.pdb
+E:\精典源码\JSL\JSL.DataEntity\bin\Debug\JSL.DataEntity.dll
+E:\精典源码\JSL\JSL.DataEntity\bin\Debug\JSL.DataEntity.pdb
+E:\精典源码\JSL\JSL.DataEntity\obj\Debug\JSL.DataEntity.dll
+E:\精典源码\JSL\JSL.DataEntity\obj\Debug\JSL.DataEntity.pdb
+D:\工程\惠信\EFWebApi\JSL\JSL.DataEntity\bin\Debug\JSL.DataEntity.dll
+D:\工程\惠信\EFWebApi\JSL\JSL.DataEntity\bin\Debug\JSL.DataEntity.pdb
+D:\工程\惠信\EFWebApi\JSL\JSL.DataEntity\obj\Debug\JSL.DataEntity.csprojResolveAssemblyReference.cache
+D:\工程\惠信\EFWebApi\JSL\JSL.DataEntity\obj\Debug\JSL.DataEntity.dll
+D:\工程\惠信\EFWebApi\JSL\JSL.DataEntity\obj\Debug\JSL.DataEntity.pdb

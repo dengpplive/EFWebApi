@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8E2C0042-C27D-4B7C-9576-BE8C4B1A1FA2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YSL.Framework</RootNamespace>
+    <AssemblyName>YSL.Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Apache.NMS">
+      <HintPath>..\YSL.Common\Lib\ActiveMQ\Apache.NMS.dll</HintPath>
+    </Reference>
+    <Reference Include="Apache.NMS.ActiveMQ">
+      <HintPath>..\YSL.Common\Lib\ActiveMQ\Apache.NMS.ActiveMQ.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging">
+      <HintPath>..\YSL.Common\Lib\Quartz\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.Extended">
+      <HintPath>..\packages\EntityFramework.Extended.6.1.0.168\lib\net45\EntityFramework.Extended.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.MappingAPI">
+      <HintPath>..\packages\EntityFramework.MappingAPI.6.1.0.9\lib\net45\EntityFramework.MappingAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\packages\NPOI.2.1.3.1\lib\net40\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.RegistrationByConvention">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.RegistrationByConvention.dll</HintPath>
+    </Reference>
+    <Reference Include="NetDimension.OpenAuth">
+      <HintPath>..\YSL.Common\Lib\NetDimension.OpenAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="NetDimension.OpenAuth.Sina">
+      <HintPath>..\YSL.Common\Lib\NetDimension.OpenAuth.Sina.dll</HintPath>
+    </Reference>
+    <Reference Include="NetDimension.OpenAuth.Winform">
+      <HintPath>..\YSL.Common\Lib\NetDimension.OpenAuth.Winform.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>..\packages\NLog.4.2.3\lib\net45\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\packages\NPOI.2.1.3.1\lib\net40\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML">
+      <HintPath>..\packages\NPOI.2.1.3.1\lib\net40\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net">
+      <HintPath>..\packages\NPOI.2.1.3.1\lib\net40\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats">
+      <HintPath>..\packages\NPOI.2.1.3.1\lib\net40\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="Nullables">
+      <HintPath>..\YSL.Common\Lib\Quartz\Nullables.dll</HintPath>
+    </Reference>
+    <Reference Include="QConnectSDK">
+      <HintPath>..\packages\QConnectSDK.1.1.1\lib\net40\QConnectSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="Quartz">
+      <HintPath>..\YSL.Common\Lib\Quartz\Quartz.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>..\packages\RestSharp.104.1\lib\net4\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Common">
+      <HintPath>..\YSL.Common\Lib\Redis\ServiceStack.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\YSL.Common\Lib\Redis\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Redis, Version=3.9.70.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\YSL.Common\Lib\Redis\ServiceStack.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text">
+      <HintPath>..\YSL.Common\Lib\Redis\ServiceStack.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap">
+      <HintPath>..\YSL.Common\Lib\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cache\CacheDependency\FileCacheDependency.cs" />
+    <Compile Include="Cache\CacheDependency\ICacheDependency.cs" />
+    <Compile Include="Cache\CacheDependency\TableCacheDependency.cs" />
+    <Compile Include="Cache\Caches.cs" />
+    <Compile Include="Cache\MemCached\ClientLibrary\HashAlgorithms.cs" />
+    <Compile Include="Cache\MemCached\ClientLibrary\LogAdapter.cs" />
+    <Compile Include="Cache\MemCached\ClientLibrary\MemcachedClient.cs" />
+    <Compile Include="Cache\MemCached\ClientLibrary\MemcachedClientException.cs" />
+    <Compile Include="Cache\MemCached\ClientLibrary\PooledSocket.cs" />
+    <Compile Include="Cache\MemCached\ClientLibrary\Serializer.cs" />
+    <Compile Include="Cache\MemCached\ClientLibrary\ServerPool.cs" />
+    <Compile Include="Cache\MemCached\ClientLibrary\SocketPool.cs" />
+    <Compile Include="Cache\MemCached\Example.cs" />
+    <Compile Include="Cache\Redis\RedisClientFactory.cs" />
+    <Compile Include="Cache\Redis\RedisConfigInfoSection.cs" />
+    <Compile Include="Cache\Redis\RedisHelper.cs" />
+    <Compile Include="Config\BaseElementCollection.cs" />
+    <Compile Include="Config\ConfigManage.cs" />
+    <Compile Include="Config\ContainerManager.cs" />
+    <Compile Include="Config\Models\ActiveMQConfigSection.cs" />
+    <Compile Include="Config\Models\ThirdPartyPlatformSection.cs" />
+    <Compile Include="DDD\Events\DomainEvents.cs" />
+    <Compile Include="DDD\Events\IDomainEvent.cs" />
+    <Compile Include="DDD\Events\IDomainEventHandler.cs" />
+    <Compile Include="DDD\Events\IDomainEventHandlerFactory.cs" />
+    <Compile Include="DDD\Events\StructureMapControllerFactory.cs" />
+    <Compile Include="DDD\Events\StructureMapDomainEventHandlerFactory.cs" />
+    <Compile Include="DDD\IAggregationRoot.cs" />
+    <Compile Include="DDD\IDependency.cs" />
+    <Compile Include="EFRepository\ContextStorage\DbContextFactory.cs" />
+    <Compile Include="EFRepository\ContextStorage\DbContextStorageFactory.cs" />
+    <Compile Include="EFRepository\ContextStorage\HttpDbContextStorageContainer.cs" />
+    <Compile Include="EFRepository\ContextStorage\IDbContextStorageContainer.cs" />
+    <Compile Include="EFRepository\ContextStorage\ThreadDbContextStorageContainer.cs" />
+    <Compile Include="DDD\IReadOnlyRepository.cs" />
+    <Compile Include="DDD\IRepository.cs" />
+    <Compile Include="EFRepository\UnitOfWork\EFUnitOfWork.cs" />
+    <Compile Include="EFRepository\UnitOfWork\EFUnitOfWorkRepository.cs" />
+    <Compile Include="DDD\IUnitOfWork.cs" />
+    <Compile Include="DDD\IUnitOfWorkRepository.cs" />
+    <Compile Include="MsgQuene\ActiveMQ\ActiveMQHelper.cs" />
+    <Compile Include="MsgQuene\ActiveMQ\MessageResult.cs" />
+    <Compile Include="Office\Excel\ExcelACE\ExcelReader.cs" />
+    <Compile Include="Office\Excel\ExcelACE\ExcelWriter.cs" />
+    <Compile Include="Office\Excel\ExcelACE\Extensions.cs" />
+    <Compile Include="Office\Excel\ExcelACE\FieldSummary.cs" />
+    <Compile Include="Office\Excel\ExcelExport.cs" />
+    <Compile Include="FTP\Extensions.cs" />
+    <Compile Include="FTP\FtpConnection.cs" />
+    <Compile Include="FTP\FtpDirectoryInfo.cs" />
+    <Compile Include="FTP\FtpException.cs" />
+    <Compile Include="FTP\FtpFileInfo.cs" />
+    <Compile Include="FTP\WinApi.cs" />
+    <Compile Include="Locator\CityLocator.cs" />
+    <Compile Include="Locator\IPAddressLocator.cs" />
+    <Compile Include="Locator\MacAddressLocator.cs" />
+    <Compile Include="MessagePush\Wcf\Example.cs" />
+    <Compile Include="MessagePush\Wcf\Impl\MessageCallBack.cs" />
+    <Compile Include="MessagePush\Wcf\Impl\MessageServices.cs" />
+    <Compile Include="MessagePush\Wcf\Interface\ICallBackServices.cs" />
+    <Compile Include="MessagePush\Wcf\Interface\IServices.cs" />
+    <Compile Include="MsgQuene\Receiver\MSMQReceiver.cs" />
+    <Compile Include="MsgQuene\Receiver\CommandReceiver.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScheduleTask\ISchedulerType.cs" />
+    <Compile Include="ScheduleTask\Job\AuthTestingQuartzJob.cs" />
+    <Compile Include="ScheduleTask\TaskManager.cs" />
+    <Compile Include="ScheduleTask\Trigger\AuthTriggerRunner.cs" />
+    <Compile Include="ThirdPartyLogin\QQLogin.cs" />
+    <Compile Include="ThirdPartyLogin\SinaClientLogin.cs" />
+    <Compile Include="ThirdPartyLogin\WeiXinLogin.cs" />
+    <Compile Include="VerifyCode\AnimatedGifEncoder.cs" />
+    <Compile Include="VerifyCode\CodeEncoder.cs" />
+    <Compile Include="VerifyCode\GifDecoder.cs" />
+    <Compile Include="VerifyCode\NeuQuant.cs" />
+    <Compile Include="VerifyCode\VerificationCode.cs" />
+    <Compile Include="WeiXin\Common\Credential.cs" />
+    <Compile Include="WeiXin\Common\EntrySign.cs" />
+    <Compile Include="WeiXin\Common\HttpHelper.cs" />
+    <Compile Include="WeiXin\Common\MenuHelper.cs" />
+    <Compile Include="WeiXin\Common\SellerContext.cs" />
+    <Compile Include="WeiXin\Common\SellerObtainer.cs" />
+    <Compile Include="WeiXin\Common\UserContext.cs" />
+    <Compile Include="WeiXin\Extra\Group.cs" />
+    <Compile Include="WeiXin\Extra\HttpHelper.cs" />
+    <Compile Include="WeiXin\Extra\LoginRet.cs" />
+    <Compile Include="WeiXin\Extra\MsgSendResult.cs" />
+    <Compile Include="WeiXin\Extra\SendMsgType.cs" />
+    <Compile Include="WeiXin\Extra\WxUser.cs" />
+    <Compile Include="WeiXin\Extra\WxUserInfo.cs" />
+    <Compile Include="WeiXin\Message\IMessageHandler.cs" />
+    <Compile Include="WeiXin\Message\Message.cs" />
+    <Compile Include="WeiXin\Message\MessageHelper.cs" />
+    <Compile Include="WeiXin\Message\MessageType.cs" />
+    <Compile Include="WeiXin\Message\ReceiveMessage.cs" />
+    <Compile Include="WeiXin\Message\ReceiveMessageSub.cs" />
+    <Compile Include="WeiXin\Message\RepMsgDataSub.cs" />
+    <Compile Include="WeiXin\Message\ResponseMessage.cs" />
+    <Compile Include="WeiXin\Message\ResponseMessageSub.cs" />
+    <Compile Include="WeiXin\Plugin\HelpPlugin.cs" />
+    <Compile Include="WeiXin\Plugin\Invoker.cs" />
+    <Compile Include="WeiXin\Plugin\InvokerContext.cs" />
+    <Compile Include="WeiXin\Plugin\MenuKeyPlugin.cs" />
+    <Compile Include="WeiXin\Plugin\Plugin.cs" />
+    <Compile Include="WeiXin\Plugin\PluginContext.cs" />
+    <Compile Include="WeiXin\Plugin\TextPlugin.cs" />
+    <Compile Include="WeiXin\WeiXinManage.cs" />
+    <Compile Include="WeiXin\WxMsgHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Email\" />
+    <Folder Include="OAuth\" />
+    <Folder Include="SMS\" />
+    <Folder Include="SOA\" />
+    <Folder Include="SSO\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Cache\MemCached\App.config" />
+    <None Include="Locator\QQWry.Dat" />
+    <None Include="MessagePush\WebSocketChatDemo.zip" />
+    <None Include="NLog.config" />
+    <None Include="packages.config" />
+    <None Include="Permission\权限管理.rar" />
+    <None Include="QRCode\QC_ewm.rar" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Cache\readme.txt" />
+    <Content Include="FTP\Remark.txt" />
+    <Content Include="MessagePush\readme.txt" />
+    <Content Include="MsgQuene\ActiveMQ\ActiveMQ.txt" />
+    <Content Include="Office\readme.txt" />
+    <Content Include="Permission\Permission.sql" />
+    <Content Include="ScheduleTask\Cron表达式.txt" />
+    <Content Include="VerifyCode\readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YSL.Common\YSL.Common.csproj">
+      <Project>{e7cd0433-0dfa-4b17-b8bd-2046e1b1b0a4}</Project>
+      <Name>YSL.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

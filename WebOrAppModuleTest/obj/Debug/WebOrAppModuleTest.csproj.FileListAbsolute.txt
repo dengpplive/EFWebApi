@@ -1,0 +1,6 @@
+D:\工程\惠信\EFWebApi\JSL\WebOrAppModuleTest\bin\WebOrAppModuleTest.dll.config
+D:\工程\惠信\EFWebApi\JSL\WebOrAppModuleTest\bin\WebOrAppModuleTest.dll
+D:\工程\惠信\EFWebApi\JSL\WebOrAppModuleTest\bin\WebOrAppModuleTest.pdb
+D:\工程\惠信\EFWebApi\JSL\WebOrAppModuleTest\obj\Debug\WebOrAppModuleTest.csprojResolveAssemblyReference.cache
+D:\工程\惠信\EFWebApi\JSL\WebOrAppModuleTest\obj\Debug\WebOrAppModuleTest.dll
+D:\工程\惠信\EFWebApi\JSL\WebOrAppModuleTest\obj\Debug\WebOrAppModuleTest.pdb

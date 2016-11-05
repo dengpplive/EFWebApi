@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D671841F-54ED-432F-9A93-38008E35AF6C}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QConnectSDK</RootNamespace>
+    <AssemblyName>QConnectSDK.WindowsPhone</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightApplication>false</SilverlightApplication>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>Bin\Debug\QConnectSDK.WindowsPhone.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>Bin\Release\QConnectSDK.WindowsPhone.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RestSharp.WindowsPhone, Version=104.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\RestSharp.104.1\lib\sl4-wp71\RestSharp.WindowsPhone.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Net" />
+    <Reference Include="mscorlib.extensions" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\QConnectSDK\Api\RequestHelper.cs">
+      <Link>Api\RequestHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\QConnectSDK\Api\RestApi.cs">
+      <Link>Api\RestApi.cs</Link>
+    </Compile>
+    <Compile Include="..\QConnectSDK\Api\Util.cs">
+      <Link>Api\Util.cs</Link>
+    </Compile>
+    <Compile Include="..\QConnectSDK\Authenticators\OAuthAuthenticator.cs">
+      <Link>Authenticators\OAuthAuthenticator.cs</Link>
+    </Compile>
+    <Compile Include="..\QConnectSDK\Config\Endpoints.cs">
+      <Link>Config\Endpoints.cs</Link>
+    </Compile>
+    <Compile Include="..\QConnectSDK\Exceptions\QzoneException.cs">
+      <Link>Exceptions\QzoneException.cs</Link>
+    </Compile>
+    <Compile Include="..\QConnectSDK\Models\AddBlogResult.cs">
+      <Link>Models\AddBlogResult.cs</Link>
+    </Compile>
+    <Compile Include="..\QConnectSDK\Models\AddWeiboResult.cs">
+      <Link>Models\AddWeiboResult.cs</Link>
+    </Compile>
+    <Compile Include="..\QConnectSDK\Models\Callback.cs">
+      <Link>Models\Callback.cs</Link>
+    </Compile>
+    <Compile Include="..\QConnectSDK\Models\CheckPageResult.cs">
+      <Link>Models\CheckPageResult.cs</Link>
+    </Compile>
+    <Compile Include="..\QConnectSDK\Models\DelWeiboResult.cs">
+      <Link>Models\DelWeiboResult.cs</Link>
+    </Compile>
+    <Compile Include="..\QConnectSDK\Models\MicroBlogBase.cs">
+      <Link>Models\MicroBlogBase.cs</Link>
+    </Compile>
+    <Compile Include="..\QConnectSDK\Models\Picture.cs">
+      <Link>Models\Picture.cs</Link>
+    </Compile>
+    <Compile Include="..\QConnectSDK\Models\QzoneBase.cs">
+      <Link>Models\QzoneBase.cs</Link>
+    </Compile>
+    <Compile Include="..\QConnectSDK\Models\User.cs">
+      <Link>Models\User.cs</Link>
+    </Compile>
+    <Compile Include="..\QConnectSDK\Models\UserAlbums.cs">
+      <Link>Models\UserAlbums.cs</Link>
+    </Compile>
+    <Compile Include="..\QConnectSDK\Models\WeiboFan.cs">
+      <Link>Models\WeiboFan.cs</Link>
+    </Compile>
+    <Compile Include="..\QConnectSDK\Models\WeiboRePost.cs">
+      <Link>Models\WeiboRePost.cs</Link>
+    </Compile>
+    <Compile Include="..\QConnectSDK\Models\WeiboUser.cs">
+      <Link>Models\WeiboUser.cs</Link>
+    </Compile>
+    <Compile Include="Api\Microblog.cs" />
+    <Compile Include="Api\Qzone.cs" />
+    <Compile Include="Api\Tenpay.cs" />
+    <Compile Include="Config\AppSettings.cs" />
+    <Compile Include="Config\IAppSettings.cs" />
+    <Compile Include="Config\QQConnectConfig.cs" />
+    <Compile Include="Context\QzoneContext.cs" />
+    <Compile Include="Models\OAuthToken.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <ProjectExtensions />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

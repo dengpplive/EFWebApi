@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QConnectSDK", "QConnectSDK\QConnectSDK.csproj", "{DDF84840-7A36-425D-A0A0-ED63DABB78EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QConnectSDK.WindowsPhone", "QConnectSDK.WindowsPhone\QConnectSDK.WindowsPhone.csproj", "{D671841F-54ED-432F-9A93-38008E35AF6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenConnectSDK.Test", "OpenConnectSDK.Test\OpenConnectSDK.Test.csproj", "{C5DB8E29-9113-4D79-B4ED-24B028F905FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7F5DA589-EDBE-4388-BCB7-17CB16FA7D2B}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		OpenConnectSDK.vsmdi = OpenConnectSDK.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs03
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = QConnectSDK\\QConnectSDK.csproj
+		SccProjectName1 = QConnectSDK
+		SccLocalPath1 = QConnectSDK
+		SccProjectUniqueName2 = QConnectSDK.WindowsPhone\\QConnectSDK.WindowsPhone.csproj
+		SccProjectName2 = QConnectSDK.WindowsPhone
+		SccLocalPath2 = QConnectSDK.WindowsPhone
+		SccProjectUniqueName3 = OpenConnectSDK.Test\\OpenConnectSDK.Test.csproj
+		SccProjectName3 = OpenConnectSDK.Test
+		SccLocalPath3 = OpenConnectSDK.Test
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = OpenConnectSDK.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDF84840-7A36-425D-A0A0-ED63DABB78EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF84840-7A36-425D-A0A0-ED63DABB78EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF84840-7A36-425D-A0A0-ED63DABB78EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF84840-7A36-425D-A0A0-ED63DABB78EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D671841F-54ED-432F-9A93-38008E35AF6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D671841F-54ED-432F-9A93-38008E35AF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D671841F-54ED-432F-9A93-38008E35AF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D671841F-54ED-432F-9A93-38008E35AF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5DB8E29-9113-4D79-B4ED-24B028F905FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5DB8E29-9113-4D79-B4ED-24B028F905FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5DB8E29-9113-4D79-B4ED-24B028F905FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5DB8E29-9113-4D79-B4ED-24B028F905FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

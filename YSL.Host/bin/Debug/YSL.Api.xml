@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>YSL.Api</name>
+    </assembly>
+    <members>
+        <member name="M:YSL.Api.ApiControllerBase.CommonResult(System.Func{System.Object},System.Action{JSL.DataEntity.ApiModel.Result})">
+            <summary>
+            增删改调用的函数
+            </summary>
+            <param name="handler"></param>
+            <param name="infoLog"></param>
+            <returns></returns>
+        </member>
+        <member name="T:YSL.Api.SaleShopMemberApiController">
+            <summary>
+            例子
+            </summary>   
+        </member>
+        <member name="M:YSL.Api.SaleShopMemberApiController.#ctor(YSL.Business.Interface.ISaleShopMemberBusiness)">
+            <summary>
+            构造函数
+            </summary>      
+        </member>
+        <member name="M:YSL.Api.SaleShopMemberApiController.testApi">
+            <summary>
+            查询
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:YSL.Api.SaleShopMemberApiController.testPOSTApi(YSL.Common.MessagePackage.RequestPackage{System.Int32})">
+            <summary>
+            POST查询 基本类型       
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:YSL.Api.SaleShopMemberApiController.testPostModelApi(YSL.Common.MessagePackage.RequestPackage{JSL.DataEntity.ApiModel.Request.UserView})">
+            <summary>
+            带实体的参数POST              
+            </summary>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YSL.Api.SaleShopMemberApiController.testAddApi">
+            <summary>
+            添加或者修改
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:YSL.Api.WeiXinApiController">
+            <summary>
+            例子
+            </summary>   
+        </member>
+        <member name="M:YSL.Api.WeiXinApiController.#ctor">
+            <summary>
+            构造函数
+            </summary>      
+        </member>
+        <member name="M:YSL.Api.WeiXinApiController.Login">
+            <summary>
+            查询
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:YSL.Api.ModelClientRule.ModelClientValidationRequriedToRule">
+            <summary>
+            服务端Model非空验证规则    
+            </summary>
+        </member>
+        <member name="T:YSL.Api.Attributes.ParaRequiredAttribute">
+            <summary>
+            服务端Model非空验证
+            Author:AxOne
+            </summary>
+        </member>
+        <member name="T:YSL.Api.DocumentController.APIDocumentController">
+            <summary>
+            API文档的文档信息
+            </summary>
+        </member>
+        <member name="M:YSL.Api.DocumentController.APIDocumentController.WebApi(System.String,System.String)">
+            <summary>
+            获取webApi接口信息
+            </summary>
+            <param name="controllerName"></param>
+            <param name="actionName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:YSL.Api.Document.ApiDocument">
+            <summary>
+            Api文档
+            </summary>
+        </member>
+        <member name="M:YSL.Api.Document.ApiDocument.#ctor(System.Web.Http.Description.ApiDescription)">
+            <summary>
+            创建API文档模型
+            </summary>
+            <param name="apiDescription">apiDescription</param>
+        </member>
+        <member name="M:YSL.Api.Document.ApiDocument.GetResponseSampleJsonString">
+            <summary>
+            获取Json响应结果样例字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:YSL.Api.Document.ApiDocument.GetRequestSampleJsonString">
+            <summary>
+            获取Json请求样例字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:YSL.Api.Document.ApiDocument.Url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:YSL.Api.Document.ApiDocument.ReturnTypeName">
+            <summary>
+            返回类型名称
+            </summary>
+        </member>
+        <member name="P:YSL.Api.Document.ApiDocument.PostRequestTypeName">
+            <summary>
+            请求类型名称
+            </summary>
+        </member>
+        <member name="P:YSL.Api.Document.ApiDocument.ApiDescription">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:YSL.Api.Document.ApiDocument.RequestParameters">
+            <summary>
+            请求参数
+            </summary>
+        </member>
+        <member name="P:YSL.Api.Document.ApiDocument.ResponseParameters">
+            <summary>
+            响应参数
+            </summary>
+        </member>
+        <member name="P:YSL.Api.Document.ApiDocument.Name">
+            <summary>
+            API接口名称
+            </summary>
+        </member>
+        <member name="P:YSL.Api.Document.ApiDocument.Method">
+            <summary>
+            请求方法
+            </summary>
+        </member>
+        <member name="P:YSL.Api.Document.ApiDocument.RequestQueryString">
+            <summary>
+            Get请求的查询字符
+            </summary>
+        </member>
+        <member name="P:YSL.Api.Document.ApiDocument.ReturnValueDocumentation">
+            <summary>
+            返回值的文档描述
+            </summary>
+        </member>
+        <member name="P:YSL.Api.Document.ApiDocument.ResultTypeIsResponsePackage">
+            <summary>
+            返回的结果是否为ResponsePackage类型
+            </summary>
+        </member>
+        <member name="T:YSL.Api.Document.ApiDocumentManager">
+            <summary>
+            Api文档管理器
+            </summary>
+        </member>
+        <member name="M:YSL.Api.Document.ApiDocumentManager.GetSampleObject(System.Type,System.Boolean)">
+            <summary>
+            获取样例对象
+            </summary>
+            <param name="type"></param>
+            <param name="returnNullIfNotExists"></param>
+            <returns></returns>
+        </member>
+        <member name="T:YSL.Api.Document.ApiDocumentParameter">
+            <summary>
+            Api文档参数
+            </summary>
+        </member>
+        <member name="T:YSL.Api.Document.IDocument">
+            <summary>
+            定API提供文档的方法
+            </summary>
+        </member>
+        <member name="M:YSL.Api.Document.IDocument.GetSampleObject">
+            <summary>
+            获取文档样例对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:YSL.Api.DocumentController.XmlDocumentationProvider.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:YSL.Api.DocumentController.XmlDocumentationProvider"/> class.
+            </summary>
+            <param name="documentPath">The physical path to XML document.</param>
+        </member>
+    </members>
+</doc>

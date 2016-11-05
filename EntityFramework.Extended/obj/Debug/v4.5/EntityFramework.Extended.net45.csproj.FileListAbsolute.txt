@@ -1,0 +1,10 @@
+D:\工程\惠信\EFWebApi\JiaDeBao.JSL\EntityFramework.Extended\bin\Debug\v4.5\EntityFramework.Extended.dll.config
+D:\工程\惠信\EFWebApi\JiaDeBao.JSL\EntityFramework.Extended\bin\Debug\v4.5\EntityFramework.Extended.xml
+D:\工程\惠信\EFWebApi\JiaDeBao.JSL\EntityFramework.Extended\bin\Debug\v4.5\EntityFramework.Extended.dll
+D:\工程\惠信\EFWebApi\JiaDeBao.JSL\EntityFramework.Extended\bin\Debug\v4.5\EntityFramework.Extended.pdb
+D:\工程\惠信\EFWebApi\JiaDeBao.JSL\EntityFramework.Extended\bin\Debug\v4.5\EntityFramework.dll
+D:\工程\惠信\EFWebApi\JiaDeBao.JSL\EntityFramework.Extended\bin\Debug\v4.5\EntityFramework.SqlServer.dll
+D:\工程\惠信\EFWebApi\JiaDeBao.JSL\EntityFramework.Extended\bin\Debug\v4.5\EntityFramework.xml
+D:\工程\惠信\EFWebApi\JiaDeBao.JSL\EntityFramework.Extended\bin\Debug\v4.5\EntityFramework.SqlServer.xml
+D:\工程\惠信\EFWebApi\JiaDeBao.JSL\EntityFramework.Extended\obj\Debug\v4.5\EntityFramework.Extended.dll
+D:\工程\惠信\EFWebApi\JiaDeBao.JSL\EntityFramework.Extended\obj\Debug\v4.5\EntityFramework.Extended.pdb

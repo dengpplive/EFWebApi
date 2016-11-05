@@ -1,0 +1,1 @@
+sc create WBVV.API.Cache binPath= "D:\5bvv\host\memcached.exe -m 8192 -p 11211 -d runservice" DisplayName= "Wobo Api Cache" start= auto depend= TCPIP

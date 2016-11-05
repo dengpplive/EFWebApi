@@ -1,0 +1,8 @@
+﻿http://activemq.apache.org/activemq-510-release.html
+http://www.cnblogs.com/pszw/archive/2012/11/27/2788884.html
+http://club.sm160.com/showtopic-497564.aspx
+
+c#开源消息队列中间件EQueue教程 
+http://www.cnblogs.com/shanyou/p/3619545.html
+开源消息队列：NetMQ 
+http://www.cnblogs.com/shanyou/p/3464196.html
